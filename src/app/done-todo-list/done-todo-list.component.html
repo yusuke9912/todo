@@ -1,0 +1,11 @@
+
+<table>
+    <tr *ngFor="let doneTodo of doneTodos; let i = index" class="todo">
+        <td>{{ doneTodo }}</td>
+        <td>
+            <button (click)="returnTodo(i)" class="return-btn">未完了</button>
+            <button (click)="deleteTodo(i)" class="delete-btn">削除</button>
+            </td>
+      
+    </tr>
+</table>

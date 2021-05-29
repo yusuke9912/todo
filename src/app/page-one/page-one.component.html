@@ -1,0 +1,8 @@
+<header>
+    <h1>Todoアプリ</h1>
+    <a routerLink="/pagetwo">完了済みタスク</a>
+</header>
+<div class="container">
+    <app-todo-form (add)="addTodo($event)"></app-todo-form>
+    <app-todo-list [todos]="todos" (delete)="deleteTodo($event)"></app-todo-list>
+</div>

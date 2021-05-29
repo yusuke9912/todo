@@ -1,0 +1,32 @@
+.form-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.add-btn{
+    padding: 5px 30px;
+    background:#38a1db;
+    border:none;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color:#fff;
+    font-size: 17px;
+}
+
+.add-form{
+    width: calc(100% - 150px);
+    padding: 10px 5px;
+    border: 1px solid #aaa;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 650px) {
+    .add-form{
+        width: calc(100% - 100px);
+    }
+    .add-btn{
+    padding: 5px 10px;
+    }
+}

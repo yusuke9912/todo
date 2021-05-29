@@ -1,0 +1,8 @@
+<header>
+    <h1>Todoアプリ</h1>
+    <a routerLink="/">未完了タスク</a>
+</header>
+<div class="container">
+    <h2>完了済みタスク</h2>
+    <app-done-todo-list  [doneTodos]="doneTodos" (delete)="deleteTodo($event)" (return)="returnTodo($event)"></app-done-todo-list>
+</div>

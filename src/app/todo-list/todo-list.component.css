@@ -1,0 +1,43 @@
+.delete-btn{
+    padding: 5px 10px;
+    background:#38a1db;
+    border:none;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color:#fff;
+    font-size: 17px;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse:collapse
+}
+
+
+tr{
+    border-bottom:1px solid #38a1db;
+   
+}
+
+td:nth-of-type(1){
+    width:70%;
+    word-break : break-all;
+     padding: 20px 0;
+     font-size: 17px;
+}
+td:nth-of-type(2){
+     width:30%;
+text-align:right;
+}
+
+@media screen and (max-width: 650px) {
+.delete-btn{
+       padding: 3px 7px;
+     font-size: 15px;
+}
+}
+
+
+
