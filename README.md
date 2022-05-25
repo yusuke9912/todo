@@ -1,2 +1,2 @@
 # todo
-angularを用いたtodoリストアプリ
+angularを用いたTODO管理ツール
